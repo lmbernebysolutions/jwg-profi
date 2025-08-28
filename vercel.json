@@ -1,3 +1,9 @@
 {
-  "framework": "sveltekit"
+  "framework": "sveltekit",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
